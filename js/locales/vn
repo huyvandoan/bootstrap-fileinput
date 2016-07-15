@@ -1,0 +1,60 @@
+/*!
+ * FileInput Vietnam Translations
+ *
+ * This file must be loaded after 'fileinput.js'. Patterns in braces '{}', or
+ * any HTML markup tags in the messages must not be converted or translated.
+ *
+ * @see http://github.com/kartik-v/bootstrap-fileinput
+ *
+ * NOTE: this file must be saved in UTF-8 encoding.
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.fileinputLocales['vn'] = {
+        fileSingle: 'Tập tin',
+        filePlural: 'Nhiều tập tin',
+        browseLabel: 'Chọn tập tin &hellip;',
+        removeLabel: 'Xóa',
+        removeTitle: 'Xóa tập tin đã chọn.',
+        cancelLabel: 'Hủy',
+        cancelTitle: 'Hủy tải tập tin lên.',
+        uploadLabel: 'Tải lên',
+        uploadTitle: 'Tải lên tập tin đã chọn.',
+        msgNo: 'Không',
+        msgCancelled: 'Đã hủy bỏ',
+        msgZoomTitle: 'Chi tiết',
+        msgZoomModalHeading: 'Xem trước chi tiết',
+        msgSizeTooLarge: 'Tập tin "{name}" (<b>{size} KB</b>) vượt quá kích thước tối đa <b>{maxSize} KB</b>.',
+        msgFilesTooLess: 'Bạn phải chọn ít nhất <b>{n}</b> {files} để tải lên.',
+        msgFilesTooMany: 'Số lượng tập tin đã chọn <b>({n})</b> Vượt quá số lượng cho phép <b>{m}</b>.',
+        msgFileNotFound: 'Không tìm thấy tập tin "{name}"!',
+        msgFileSecured: 'Không thể đọc tập tin "{name}" vì đã được bảo mật.',
+        msgFileNotReadable: 'Không thể đọc tập tin "{name}".',
+        msgFilePreviewAborted: 'Xem trước tập tin "{name}" bị hủy bỏ.',
+        msgFilePreviewError: 'Đã có lỗi xảy ra khi đọc tập tin "{name}".',
+        msgInvalidFileType: 'Loại tập tin "{name} không hợp lệ". Chỉ có loại tập tin "{types}" được hỗ trợ.',
+        msgInvalidFileExtension: 'Tập tin "{name}" có phần mở rộng không hợp lên. Chỉ hỗ trợ phần mở rộng "{extensions}".',
+        msgUploadAborted: 'Tải lên tập tin đã bị hủy bỏ.',
+        msgValidationError: 'Lỗi xác nhận',
+        msgLoading: 'Đang tải tập tin thứ {index} của {files} &hellip;',
+        msgProgress: 'Đang tải tập tin thứ {index} of {files} - {name} - {percent}% Hoàn thành.',
+        msgSelected: 'Đã chọn {n} {files}',
+        msgFoldersNotAllowed: 'Chỉ kéo thả tập tin! Bỏ qua {n} thư mục (s).',
+        msgImageWidthSmall: 'Chiều rộng của tập tin hình ảnh "{name}" tối thiểu là {size} px.',
+        msgImageHeightSmall: 'Chiều cao của tập tin hình ảnh "{name}" tối thiểu là {size} px.',
+        msgImageWidthLarge: 'Chiều rộng của tập tin hình ảnh "{name}" không thể vượt quá {size} px.',
+        msgImageHeightLarge: 'Chiều cao của tập tin hình ản "{name}" không thể vượt quá {size} px.',
+        msgImageResizeError: 'Không thể lấy được kích thước ảnh để thay đổi.',
+        msgImageResizeException: 'Đã có lỗi xảy ra khi thay đổi kích thước ảnh.<pre>{errors}</pre>',
+        dropZoneTitle: 'Kéo và thả tập tin tại đây &hellip;',
+        fileActionSettings: {
+            removeTitle: 'Xóa tập tin',
+            uploadTitle: 'Tải lên tập tin',
+            indicatorNewTitle: 'Vẫn chưa tải lên',
+            indicatorSuccessTitle: 'Đã tải lên',
+            indicatorErrorTitle: 'Tải lên đã bị lỗi',
+            indicatorLoadingTitle: 'Đang tải lên ...'
+        }
+    };
+})(window.jQuery);
